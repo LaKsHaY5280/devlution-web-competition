@@ -49,7 +49,7 @@ const page = () => {
       </header>
       <section className=" relative h-screen flex justify-center items-center bg-[url('/bgG.jpg')] bg-cover bg-fixed bg-center">
         <h2
-          className=" absolute max-lg:top-64 text-3xl lg:text-7xl text-[#ff4655]"
+          className=" absolute max-lg:top-64 text-3xl lg:text-7xl text-[#ff4655] font-bold"
           style={{ transform: `translateY(${scrollY * 2.5}px)` }}
         >
           GAMIFICATION
@@ -101,7 +101,7 @@ const page = () => {
         />
       </section>
       <section className=" relative h-screen flex flex-col justify-center items-center bg-[url('/bg2G.jpg')] bg-cover bg-fixed bg-center">
-        <h2 className=" text-5xl p-5 text-[#ff4655]">Are you interested</h2>
+        <h2 className=" text-5xl p-5 text-[#ff4655] font-semibold">Are you interested</h2>
         <p className=" text-xl p-5 text-white">
           just click here to participate, who know you might be the lucky winner
         </p>

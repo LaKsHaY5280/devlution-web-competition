@@ -1,10 +1,28 @@
-import bgG from "./gameification/bg.jpg";
-import bg2G from "./gameification/bg2.jpg";
+import logo from "./gameification/logo.png";
 import blade from "./gameification/blade.png";
 import bladerev from "./gameification/bladerev.png";
-import logo from "./gameification/logo.png";
 import omen from "./gameification/omen.png";
-import rail from "./gameification/rail.jpg";
 import skye from "./gameification/skye.png";
+import rail from "./gameification/rail.jpg";
 
-export { bgG, bg2G, blade, bladerev, logo, omen, rail, skye };
+import peepL from "./animification/peepL.png";
+import peepR from "./animification/peepR.png";
+import butterfly from "./animification/butterfly.png";
+import sword from "./animification/sword.png";
+import ironman from "./animification/ironman.png";
+import batman from "./animification/batman.png";
+
+export {
+  blade,
+  bladerev,
+  logo,
+  omen,
+  rail,
+  skye,
+  peepL,
+  peepR,
+  butterfly,
+  sword,
+  ironman,
+  batman,
+};
