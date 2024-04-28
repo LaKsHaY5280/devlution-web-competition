@@ -26,7 +26,7 @@ export const tech = [
 
 export const themes = [
   { name: "Gamification", js: "", react: "", live: "/gamification" },
-  { name: "Animification", js: "", react: "", live: "" },
+  { name: "Animification", js: "", react: "", live: "/animification" },
   { name: "Ecomification", js: "", react: "", live: "" },
   { name: "Open Innovation", js: "", react: "", live: "" },
 ];
