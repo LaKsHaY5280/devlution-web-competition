@@ -89,7 +89,7 @@ const page = () => {
           className=" lg:hidden bottom-0 w-6/12 lg:w-4/12 h-2/4 lg:h-3/4 left-0 fixed"
           src={omen}
           id="gate-left"
-          style={{ transform: `translateX(${Math.min(scrollY * 0.5, 250)}px)` }}
+          style={{ transform: `translateX(${Math.min(scrollY * 0.5, 200)}px)` }}
           alt=""
         />
         <Image
@@ -97,7 +97,7 @@ const page = () => {
           src={skye}
           id="gate-right"
           style={{
-            transform: `translateX(${Math.max(scrollY * -0.5, -250)}px)`,
+            transform: `translateX(${Math.max(scrollY * -0.5, -200)}px)`,
           }}
           alt=""
         />
