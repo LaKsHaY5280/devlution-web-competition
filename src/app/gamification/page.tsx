@@ -1,5 +1,14 @@
 "use client";
-import { blade, bladerev, logo, omen, rail, skye } from "@/assets";
+import {
+  blade,
+  bladerev,
+  logo,
+  omen,
+  skye,
+  mario,
+  contra,
+  rail,
+} from "@/assets";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -100,14 +109,26 @@ const page = () => {
           alt=""
         />
       </section>
-      <section className=" relative h-screen flex flex-col justify-center items-center bg-[url('/bg2G.jpg')] bg-cover bg-fixed bg-center">
-        <h2 className=" text-5xl p-5 text-[#ff4655] font-semibold">Are you interested</h2>
+      <section className=" relative h-screen flex flex-col justify-start lg:justify-center items-center bg-[url('/bg2G.jpg')] bg-cover bg-fixed bg-center p-10">
+        <h2 className=" text-5xl p-5 text-blue-700 font-semibold">
+          Are you interested
+        </h2>
         <p className=" text-xl p-5 text-white">
           just click here to participate, who know you might be the lucky winner
         </p>
-        <button className=" bg-[#ff4655] rounded-3xl text-white px-5 py-2.5 transition-[0.5s] hover:bg-[#333]">
+        <button className=" bg-red-700 rounded-3xl text-white px-5 py-2.5 transition-[0.5s] hover:bg-[#333]">
           Register Now
         </button>
+        <Image
+          className=" absolute w-2/12 h-2/4 lg:h-3/4 left-5 lg:left-28 bottom-10"
+          src={mario}
+          alt=""
+        />
+        <Image
+          className=" absolute w-3/12 h-2/4 lg:h-3/4 right-5 lg:right-16 bottom-10"
+          src={contra}
+          alt=""
+        />
       </section>
       <section className=" -z-40 relative h-screen flex justify-center items-center bg-[url('/bgG.jpg')] bg-cover bg-fixed bg-center">
         <div className=" w-full flex justify-between items-center absolute max-lg:top-10 text-4xl text-center text-[#ff4655] p-10">

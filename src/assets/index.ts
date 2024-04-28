@@ -3,6 +3,8 @@ import blade from "./gameification/blade.png";
 import bladerev from "./gameification/bladerev.png";
 import omen from "./gameification/omen.png";
 import skye from "./gameification/skye.png";
+import mario from "./gameification/mario.png";
+import contra from "./gameification/contra.png";
 import rail from "./gameification/rail.jpg";
 
 import peepL from "./animification/peepL.png";
@@ -17,8 +19,10 @@ export {
   bladerev,
   logo,
   omen,
-  rail,
   skye,
+  mario,
+  contra,
+  rail,
   peepL,
   peepR,
   butterfly,
