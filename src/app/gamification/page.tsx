@@ -19,10 +19,10 @@ const page = () => {
 
   return (
     <div className=" relative overflow-hidden">
-      <header className=" absolute top-0 left-0 w-full px-24 py-8 flex justify-between items-center z-30 ">
-        <h2 className=" text-3xl text-white cursor-pointer">
+      <header className=" absolute top-0 left-0 w-full px-24 py-8 flex justify-center lg:justify-between items-center z-30 ">
+        <div className=" text-3xl text-white cursor-pointer">
           <Image className=" w-20" src={logo} alt="" />
-        </h2>
+        </div>
         <nav className=" max-lg:hidden">
           <a
             href="#"
