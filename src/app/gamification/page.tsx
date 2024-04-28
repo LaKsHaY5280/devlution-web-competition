@@ -86,14 +86,14 @@ const page = () => {
           alt=""
         />
         <Image
-          className=" lg:hidden bottom-0 lg:w-4/12 h-2/4 lg:h-3/4 left-0 fixed"
+          className=" lg:hidden bottom-0 w-6/12 lg:w-4/12 h-2/4 lg:h-3/4 left-0 fixed"
           src={omen}
           id="gate-left"
           style={{ transform: `translateX(${Math.min(scrollY * 0.5, 250)}px)` }}
           alt=""
         />
         <Image
-          className=" lg:hidden bottom-0 lg:w-3/12 h-2/4 lg:h-3/4 right-10 fixed"
+          className=" lg:hidden bottom-0 w-6/12 lg:w-3/12 h-2/4 lg:h-3/4 right-10 fixed"
           src={skye}
           id="gate-right"
           style={{
