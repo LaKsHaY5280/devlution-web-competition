@@ -50,7 +50,6 @@ const page = () => {
       <section className=" relative h-screen flex justify-center items-center bg-[url('/bgG.jpg')] bg-cover bg-fixed bg-center">
         <h2
           className=" absolute max-lg:top-64 text-3xl lg:text-7xl text-[#ff4655]"
-          id="text"
           style={{ transform: `translateY(${scrollY * 2.5}px)` }}
         >
           GAMIFICATION
@@ -58,28 +57,24 @@ const page = () => {
         <Image
           className=" absolute bottom-0 w-10/12 lg:w-5/12 left-24"
           src={bladerev}
-          id="tree-left"
           style={{ transform: `translateX(${-scrollY * 1.5}px)` }}
           alt=""
         />
         <Image
           className=" absolute bottom-0 w-10/12 lg:w-5/12 right-24"
           src={blade}
-          id="tree-right"
           style={{ transform: `translateX(${scrollY * 1.5}px)` }}
           alt=""
         />
         <Image
           className=" max-lg:hidden bottom-0 w-4/12 h-2/4 lg:h-3/4 left-0 fixed"
           src={omen}
-          id="gate-left"
           style={{ transform: `translateX(${Math.min(scrollY * 0.5, 800)}px)` }}
           alt=""
         />
         <Image
           className=" max-lg:hidden bottom-0 w-3/12 h-2/4 lg:h-3/4 right-10 fixed"
           src={skye}
-          id="gate-right"
           style={{
             transform: `translateX(${Math.max(scrollY * -0.5, -800)}px)`,
           }}
@@ -88,14 +83,12 @@ const page = () => {
         <Image
           className=" lg:hidden bottom-0 w-6/12 lg:w-4/12 h-2/4 lg:h-3/4 left-0 fixed"
           src={omen}
-          id="gate-left"
           style={{ transform: `translateX(${Math.min(scrollY * 0.5, 200)}px)` }}
           alt=""
         />
         <Image
           className=" lg:hidden bottom-0 w-6/12 lg:w-3/12 h-2/4 lg:h-3/4 right-10 fixed"
           src={skye}
-          id="gate-right"
           style={{
             transform: `translateX(${Math.max(scrollY * -0.5, -200)}px)`,
           }}
@@ -104,7 +97,6 @@ const page = () => {
         <Image
           className=" absolute bottom-0 w-full lg:h-1/6"
           src={rail}
-          id="grass"
           alt=""
         />
       </section>
@@ -141,7 +133,6 @@ const page = () => {
       <Image
         className=" z-60 absolute bottom-0 w-full h-[4vh] lg:h-[15vh]"
         src={rail}
-        id="grass"
         alt=""
       />
     </div>
