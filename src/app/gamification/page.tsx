@@ -49,7 +49,7 @@ const page = () => {
       </header>
       <section className=" relative h-screen flex justify-center items-center bg-[url('/bgG.jpg')] bg-cover bg-fixed bg-center">
         <h2
-          className=" absolute max-lg:top-64 text-5xl lg:text-7xl text-[#ff4655]"
+          className=" absolute max-lg:top-64 text-3xl lg:text-7xl text-[#ff4655]"
           id="text"
           style={{ transform: `translateY(${scrollY * 2.5}px)` }}
         >
